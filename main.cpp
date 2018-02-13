@@ -8,6 +8,7 @@ int main()
 {
   //declare variables
     string fname, lname;
+    int flname;
 
   //get user input
   cout<< "Please enter you first name. \n ";
@@ -17,8 +18,9 @@ int main()
   
     
   //tell fortune
+  flname = fname.length() + lname.length();
   cout<< "Welcome, " <<fname[0]<<lname[0]<< ", here is your fortune...\n";
-
+  cout<< "Your luck number is "<< flname << ". \n";
 
 
 
