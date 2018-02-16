@@ -11,9 +11,9 @@ int main()
     int flname;
 
   //get user input
-  cout<< "What is your first name? \n";
+  cout<< "What is your first name?\n";
   cin>> fname;
-  cout<< "What is your last name? \n";
+  cout<< "What is your last name?\n";
   cin>> lname;
   
     
