@@ -11,16 +11,16 @@ int main()
     int flname;
 
   //get user input
-  cout<< "Please enter you first name. \n";
+  cout<< "What is your first name? \n";
   cin>> fname;
-  cout<< "please enter you last name. \n";
+  cout<< "What is your last name? \n";
   cin>> lname;
   
     
   //tell fortune
   flname = fname.length();
-  cout<< "Welcome, " <<fname[0]<< "." <<lname[0]<< ". , here is your fortune...\n";
-  cout<< "Your luck number is "<< flname << ". \n";
+  cout<< "Welcome, " <<fname[0]<< "." <<lname[0]<< "., here is your fortune...\n";
+  cout<< "your lucky number is "<< flname << "\n";
 
   if(fname[0] == 'a' ||
      fname[0] == 'e' ||
@@ -33,9 +33,9 @@ int main()
      fname[0] == 'O' ||
      fname[0] == 'U')
     
-    { cout<< "you are destined to be famous! \n";}
+    { cout<< "you are destined to be famous!\n";}
     else
-    { cout<< "you should keep a low profile. \n";} 
+    { cout<< "you should keep a low profile.\n";} 
 
   if(  lname[lname.length() - 1] == 'a' ||
        lname[lname.length() - 1] == 'e' ||
